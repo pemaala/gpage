@@ -1,0 +1,182 @@
+html, body {
+    background-color: #252a6d;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color:rgb(241, 241, 241);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #8c97cd;
+  }
+
+h4 { 
+    color: #c4c4c4;
+    font-size:12px;
+    height:auto;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin: 0 auto;
+    position: fixed !important;
+    left: 10px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h5 { 
+    color: #c4c4c4;
+    font-size:12px;
+    height:auto;
+    writing-mode: vertical-rl;
+    transform: rotate(360deg);
+    margin: 0 auto;
+    position: fixed !important;
+    right: 10px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#container {
+    background-color: #fdf9f9;
+    width:95%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    overflow-y: scroll;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    border-bottom: #8c97cd solid 1px;
+    width:100%;
+    justify-content: space-around;
+}
+
+.izq {
+    display: flex;
+    align-items: center;
+}
+
+.desc h1 {
+    color: #252a6d;
+    font-size:60px;
+    margin:5px;
+}
+
+.desc h2 {
+    color: #252a6d;
+    font-size:20px;
+    line-height: 25px;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.desc p {
+    color:#000000;
+    font-family: "Roboto Slab", serif;
+}
+b {
+    color: #8c97cd;
+}
+
+a {
+    color: #8c97cd;
+}
+
+.gifbox {
+    max-width: 1340px;
+    margin-top:10px;
+}
+
+.nombre {
+    color:#252a6d;
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+@media (min-width: 1600px) and (max-width: 1920px) { 
+
+    .decouno {
+        top: -20%;
+        right: -25%;
+    }
+    
+
+
+ }
+
+
+@media (max-width: 1440px) and (max-width: 1599px) { 
+
+
+    
+}
+
+
+@media (max-width: 1280px) {
+
+    
+}
+
+@media (max-width: 1024px) {
+
+ 
+}
+
+@media (max-width: 768px) {
+
+    
+}
+
+@media (max-width: 480px) {
+
+}
+    
+#tumblr_controls, .tmblr-iframe {
+    z-index:999999999999999999!important;
+    -webkit-filter:invert(100%);
+    -moz-filter:invert(100%);
+    -o-filter:invert(100%);
+    -ms-filter:invert(100%);
+    filter:invert(100%);
+    position:fixed!important;
+    top:0px!important;
+    right:0px!important;
+    opacity:.5;
+    -webkit-transition:all 0.6s ease-out;
+    -webkit-transition: opacity 0.7s linear;
+    opacity: 0.2;
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out
+}
+
+#tumblr_controls, .tmblr-iframe:hover{ 
+    opacity:.9;webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    -webkit-transition:all 0.6s ease-out;
+    -webkit-filter:invert(80%);
+    -moz-filter:invert(80%);
+    -o-filter:invert(80%);
+    -ms-filter:invert(80%);
+    filter:invert(80%); 
+}
